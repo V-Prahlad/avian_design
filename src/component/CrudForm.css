@@ -1,0 +1,44 @@
+.crud__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.crud__main input {
+  width: 350px;
+  height: 45px;
+  background-color: #434546;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.crud__main div {
+  margin: 20px 0px;
+}
+
+.form__button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.crud button {
+  font-size: 26px;
+  width: 200px;
+  height: 45px;
+  color: #5098d0;
+  border-radius: 40px;
+  border: 3px solid #5098d0;
+  background-color: #191b1c;
+  cursor: pointer;
+}

@@ -1,0 +1,125 @@
+#login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.login__form {
+  width: 50vw;
+}
+.login__image img {
+  height: 100vh;
+  width: 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.form__title {
+  background-color: #fff;
+  font-size: 16px;
+  position: relative;
+  right: 125px;
+  bottom: 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 30%;
+}
+
+.form__main span {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.form__main input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  /* Firefox, Chrome, Opera */
+  padding-left: 10px;
+}
+.form__heading {
+  font-size: 30px;
+  margin: 0px 0px 30px 0px;
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+  font-weight: 700;
+}
+
+.form__recover {
+  display: flex;
+  width: 350px;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+.form__recover input {
+  margin-right: 8px;
+}
+
+.recover__first {
+  position: relative;
+  right: 30px;
+  bottom: 20px;
+}
+
+.recover__second {
+  position: relative;
+  left: 30px;
+  bottom: 20px;
+}
+
+.button__login button {
+  width: 347px;
+  height: 50px;
+  border: none;
+  background: #04c45c;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button__google button {
+  width: 347px;
+  height: 50px;
+  border: none;
+  background: #2d3748;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.button__google span {
+  font-size: 20px;
+  position: relative;
+  right: 8px;
+  top: 5px;
+}
+
+.form__footer span {
+  position: absolute;
+  bottom: 20px;
+  right: 220px;
+}
+.form__footer span a {
+  text-decoration: none;
+}

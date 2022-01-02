@@ -1,0 +1,9 @@
+#container {
+  width: 100vw;
+}
+
+#home {
+  margin-left: 170px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(265px, 250px));
+}

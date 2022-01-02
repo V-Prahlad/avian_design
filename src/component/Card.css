@@ -1,0 +1,76 @@
+body {
+  background-color: #191b1c;
+}
+
+#card {
+  width: 204px;
+  height: 280px;
+  color: #fff;
+  border: 1px solid rgb(46, 45, 45);
+  border-radius: 10px;
+  margin: 60px;
+  overflow: hidden;
+}
+
+.card__closeButton {
+  position: relative;
+  bottom: 249px;
+  left: 181px;
+  border-radius: 100%;
+}
+
+.card__thumbnail img {
+  width: 100%;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__image img {
+  width: 110px;
+  height: 105px;
+  position: relative;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 54px;
+  left: 48px;
+}
+
+.card__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 53px;
+}
+.detail__name {
+  font-size: 18px;
+}
+.detail__city {
+  position: relative;
+  top: 10px;
+}
+
+.detail__email {
+  overflow: hidden;
+}
+.card__button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 29px;
+}
+
+.card__button button {
+  color: #5098d0;
+  border: 0.5px solid #5098d0;
+  width: 70%;
+  padding: 4px 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #191b1c;
+}
